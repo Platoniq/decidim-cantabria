@@ -354,7 +354,7 @@ GEM
     db-query-matchers (0.10.0)
       activesupport (>= 4.0, < 7)
       rspec (~> 3.0)
-    decidim-decidim_awesome (0.8.0)
+    decidim-decidim_awesome (0.8.1)
       decidim-admin (>= 0.25.0, < 0.27)
       decidim-core (>= 0.25.0, < 0.27)
       sassc (~> 2.3)
@@ -877,7 +877,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.2)
   daemons
   decidim!
-  decidim-decidim_awesome (= 0.8)
+  decidim-decidim_awesome (~> 0.8)
   decidim-dev!
   decidim-templates!
   decidim-term_customizer!
