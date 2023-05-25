@@ -33,18 +33,36 @@
 # Ignore public uploads
 public/uploads
 
-# Do not track secrets in GIT
-/config/application.yml
 
-# Ignore deploy secrets
-/config/deploy.rb
-/config/deploy
-/config/deploy/*
-/Capfile
-
-# Ignore .rspec-failures
 .rspec-failures
-
-# Ignore .rbenv-vars
 .rbenv-vars
+
+coverage
+decidim-peertube/coverage
+
+decidim-peertube/spec/decidim_dummy_app
 spec/decidim_dummy_app
+
+config/deploy
+config/deploy.rb
+config/application.yml
+Capfile
+
+.stuff
+
+.rubocop*
+
+node_modules
+/public/decidim-packs
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
