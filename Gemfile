@@ -50,10 +50,8 @@ group :development do
 end
 
 group :production do
-  gem "daemons", "~> 1.3"
   gem "figaro", "~> 1.2"
   gem "passenger", "~> 6.0"
   gem "sidekiq", "~> 6.0"
-  gem "sidekiq-cron"
   gem "whenever"
 end
