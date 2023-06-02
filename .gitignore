@@ -66,3 +66,7 @@ yarn-debug.log*
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+
+public/sw.js
+public/sw.js.map
