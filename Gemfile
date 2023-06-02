@@ -18,6 +18,7 @@ gem "bootsnap", "~> 1.4"
 
 gem "puma", ">= 5.0.0"
 gem "uglifier", "~> 4.1"
+gem "whenever"
 
 gem "faker", "~> 2.14"
 
@@ -54,5 +55,4 @@ group :production do
   gem "figaro", "~> 1.2"
   gem "passenger", "~> 6.0"
   gem "sidekiq", "~> 6.0"
-  gem "sidekiq-cron"
 end
