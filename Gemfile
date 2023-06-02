@@ -24,14 +24,9 @@ gem "faker", "~> 2.14"
 
 # gem "wicked_pdf", "~> 1.4"
 
-gem "daemons"
-gem "delayed_job_active_record"
-gem "delayed_job_web"
-gem "figaro"
 gem "rspec"
 gem "sentry-rails"
 gem "sentry-ruby"
-gem "whenever", require: false
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
@@ -53,5 +48,12 @@ group :development do
   gem "capistrano-rails-console", require: false
   gem "capistrano-rbenv", "~> 2.2", require: false
 
+end
+
+group :production do
+  gem "daemons", "~> 1.3"
+  gem "figaro", "~> 1.2"
   gem "passenger", "~> 6.0"
+  gem "sidekiq", "~> 6.0"
+  gem "sidekiq-cron"
 end
