@@ -55,4 +55,5 @@ group :production do
   gem "figaro", "~> 1.2"
   gem "passenger", "~> 6.0"
   gem "sidekiq", "~> 6.0"
+  gem "sidekiq-cron"
 end
